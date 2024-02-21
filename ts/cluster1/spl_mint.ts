@@ -24,7 +24,7 @@ const destination = new PublicKey("37UmxWZnDREabCPaQ5NWsTqVQiZB8ojw7CgJDch78wQf"
         // Mint to ATA
         const mintTx = await mintTo(connection, keypair, mint, ata.address, keypair, 100n * token_decimals);
         console.log(`Your mint txid: ${mintTx}`);
-    } catch(error) {
+    } catch (error) {
         console.log(`Oops, something went wrong: ${error}`)
     }
 })()

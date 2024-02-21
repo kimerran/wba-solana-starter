@@ -28,7 +28,7 @@ umi.use(signerIdentity(createSignerFromKeypair(umi, keypair)));
             metadataProgramId.toBuffer(),
             new PublicKey(MINT_ADDRESS).toBuffer()
         ];
-        const [pda ] = PublicKey.findProgramAddressSync(metadataSeeds, metadataProgramId)
+        const [pda] = PublicKey.findProgramAddressSync(metadataSeeds, metadataProgramId)
         const pdaUmi = publicKey(pda.toString());
 
         // Start here
