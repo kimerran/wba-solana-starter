@@ -12,9 +12,9 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const token_decimals = 1_000_000n;
 
 // Mint address
-const mint = new PublicKey("5txD3zoTHDjtTo5FHpkiSBVSHs8GnSiCAwFAnhZsyeZg");
+const mint = new PublicKey("5PfvFTM6Jpy4wbGh95HxEaBjqDRjCpTb9Wd47tVfTMsr");
 
-const destination = new PublicKey("7F59cxsG8TfQMMXms5xFF2bCxapq3LyVW43fBVBBX2LL");
+const destination = new PublicKey("37UmxWZnDREabCPaQ5NWsTqVQiZB8ojw7CgJDch78wQf");
 (async () => {
     try {
         // Create an ATA
